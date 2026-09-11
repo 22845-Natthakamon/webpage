@@ -3,119 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>งานอดิเรก - Modern Student Portfolio | ด.ช. ภูมิภัทร นิลคูหา</title>
+
+    <title>My Portfolio | งานอดิเรก</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Navigation Bar -->
-    <header class="header">
+
+    <div class="background-effects">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="spark spark-1"></span>
+        <span class="spark spark-2"></span>
+        <span class="spark spark-3"></span>
+        <span class="spark spark-4"></span>
+    </div>
+
+
+    <header class="navbar">
+
         <div class="nav-container">
+
             <a href="index.html" class="logo">
-                <i class="fa-solid fa-sun logo-icon"></i>
-                <span>Phumiphat's Portfolio</span>
+                <span class="logo-icon">✦</span>
+                <span>My Portfolio</span>
             </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-            </label>
-            <nav class="nav-menu">
-                <a href="index.html" class="nav-link">หน้าแรก</a>
-                <a href="profile.html" class="nav-link">ประวัติส่วนตัว</a>
-                <a href="education.html" class="nav-link">การศึกษา</a>
-                <a href="hobby.html" class="nav-link active">งานอดิเรก</a>
-                <a href="contact.html" class="nav-link">ติดต่อ</a>
+
+            <nav>
+                <a href="index.html">หน้าแรก</a>
+                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="education.html">การศึกษา</a>
+                <a href="hobby.html" class="active">งานอดิเรก</a>
+                <a href="contact.html">ติดต่อ</a>
             </nav>
+
         </div>
+
     </header>
 
-    <!-- Main Content -->
-    <main class="page-main">
-        <div class="container">
-            <div class="page-title-box">
-                <span class="sub-title"><i class="fa-solid fa-sun"></i> HOBBIES & INTERESTS</span>
-                <h1>งานอดิเรกและความสนใจ</h1>
-                <p>กิจกรรมยามว่าง สิ่งที่ชอบทำ และความสนใจพิเศษของผม</p>
-            </div>
 
-            <!-- Hobby Grid -->
+    <main>
+
+        <section class="page-header hobby-header reveal">
+
+            <span class="small-title">MY HOBBIES</span>
+
+            <h1>
+                สิ่งที่ฉัน<span class="gradient-text">ชอบ</span> 💫
+            </h1>
+
+            <p>
+                เพราะชีวิตไม่ได้มีแค่การเรียนรู้ในห้องเรียน
+            </p>
+
+        </section>
+
+
+        <section class="section">
+
             <div class="hobby-grid">
-                <!-- Card 1: เกม -->
-                <div class="hobby-card">
-                    <div class="hobby-icon-bg"><i class="fa-solid fa-gamepad"></i></div>
-                    <h3>เกมและอีสปอร์ต</h3>
-                    <p>เล่นเกมแนววางแผน กลยุทธ์ และเกมผจญภัย เพื่อฝึกสมอง การแก้ปัญหาเฉพาะหน้า และผ่อนคลายความเครียดจากการเรียน</p>
-                    <span class="hobby-tag">Strategy & Adventure</span>
-                </div>
 
-                <!-- Card 2: กีฬา -->
-                <div class="hobby-card">
-                    <div class="hobby-icon-bg"><i class="fa-solid fa-futbol"></i></div>
-                    <h3>กีฬาและสุขภาพ</h3>
-                    <p>ชอบเล่นกีฬาฟุตบอลและออกกำลังกายกับเพื่อนๆ ในยามว่าง ช่วยเสริมสร้างร่างกายให้แข็งแรงและฝึกความสามัคคีในทีม</p>
-                    <span class="hobby-tag">Football & Fitness</span>
-                </div>
 
-                <!-- Card 3: เพลง -->
-                <div class="hobby-card">
-                    <div class="hobby-icon-bg"><i class="fa-solid fa-music"></i></div>
-                    <h3>ฟังเพลงและดนตรี</h3>
-                    <p>ฟังเพลงแนว Pop, Lo-fi และ Acoustic ระหว่างทำการบ้านหรือเขียนโค้ด ช่วยให้มีสมาธิและสร้างบรรยากาศที่ดีในการทำงาน</p>
-                    <span class="hobby-tag">Pop & Lo-fi Beats</span>
-                </div>
+                <article class="hobby-card reveal">
 
-                <!-- Card 4: ภาพยนตร์ -->
-                <div class="hobby-card">
-                    <div class="hobby-icon-bg"><i class="fa-solid fa-film"></i></div>
-                    <h3>ภาพยนตร์และซีรีส์</h3>
-                    <p>ชื่นชอบการดูภาพยนตร์แนวไซไฟ (Sci-Fi) เทคโนโลยี และอนิเมะญี่ปุ่นสนุกๆ เพื่อสร้างแรงบันดาลใจและจินตนาการใหม่ๆ</p>
-                    <span class="hobby-tag">Sci-Fi & Anime</span>
-                </div>
+                    <div class="hobby-number">01</div>
 
-                <!-- Card 5: เทคโนโลยี -->
-                <div class="hobby-card">
-                    <div class="hobby-icon-bg"><i class="fa-solid fa-laptop-code"></i></div>
-                    <h3>เทคโนโลยีและการเขียนโค้ด</h3>
-                    <p>ศึกษาการสร้างเว็บไซต์ การใช้ HTML/CSS การทดลองฟีเจอร์ใหม่ๆ และติดตามข่าวสารแกดเจ็ตเทคโนโลยีล่าสุด</p>
-                    <span class="hobby-tag">Coding & Web Dev</span>
-                </div>
+                    <div class="hobby-icon">🎮</div>
 
-                <!-- Card 6: ความสนใจ -->
-                <div class="hobby-card">
-                    <div class="hobby-icon-bg"><i class="fa-solid fa-camera-retro"></i></div>
-                    <h3>ความสนใจถ่ายภาพ</h3>
-                    <p>ชอบถ่ายภาพวิวทิวทัศน์ ท้องฟ้า ดอกทานตะวัน และบรรยากาศรอบตัว เก็บความทรงจำดีๆ ผ่านเลนส์กล้องมือถือ</p>
-                    <span class="hobby-tag">Photography & Nature</span>
-                </div>
+                    <h2>เกม</h2>
+
+                    <p>
+                        สนุกกับการเล่นเกมในเวลาว่าง
+                        และใช้เป็นกิจกรรมเพื่อผ่อนคลาย
+                    </p>
+
+                    <div class="hobby-line"></div>
+
+                </article>
+
+
+                <article class="hobby-card reveal delay-1">
+
+                    <div class="hobby-number">02</div>
+
+                    <div class="hobby-icon">⚽</div>
+
+                    <h2>กีฬา</h2>
+
+                    <p>
+                        ชอบกิจกรรมที่ได้เคลื่อนไหวร่างกาย
+                        และใช้เวลาร่วมกับเพื่อน ๆ
+                    </p>
+
+                    <div class="hobby-line"></div>
+
+                </article>
+
+
+                <article class="hobby-card reveal delay-2">
+
+                    <div class="hobby-number">03</div>
+
+                    <div class="hobby-icon">🎵</div>
+
+                    <h2>เพลง</h2>
+
+                    <p>
+                        ฟังเพลงในเวลาว่างเพื่อสร้างความผ่อนคลาย
+                        และเพิ่มแรงบันดาลใจ
+                    </p>
+
+                    <div class="hobby-line"></div>
+
+                </article>
+
+
+                <article class="hobby-card reveal">
+
+                    <div class="hobby-number">04</div>
+
+                    <div class="hobby-icon">🎬</div>
+
+                    <h2>ภาพยนตร์</h2>
+
+                    <p>
+                        ชอบชมภาพยนตร์และเรื่องราวที่น่าสนใจ
+                        เพื่อความสนุกและความบันเทิง
+                    </p>
+
+                    <div class="hobby-line"></div>
+
+                </article>
+
+
+                <article class="hobby-card reveal delay-1">
+
+                    <div class="hobby-number">05</div>
+
+                    <div class="hobby-icon">💻</div>
+
+                    <h2>เทคโนโลยี</h2>
+
+                    <p>
+                        สนใจการใช้คอมพิวเตอร์ เว็บไซต์
+                        และเทคโนโลยีใหม่ ๆ
+                    </p>
+
+                    <div class="hobby-line"></div>
+
+                </article>
+
+
+                <article class="hobby-card reveal delay-2">
+
+                    <div class="hobby-number">06</div>
+
+                    <div class="hobby-icon">📷</div>
+
+                    <h2>ความสนใจ</h2>
+
+                    <p>
+                        ชอบค้นหาสิ่งใหม่ ๆ และทดลองทำกิจกรรม
+                        ที่ช่วยเพิ่มประสบการณ์ให้กับตัวเอง
+                    </p>
+
+                    <div class="hobby-line"></div>
+
+                </article>
+
             </div>
-        </div>
+
+        </section>
+
+
+        <section class="section reveal">
+
+            <div class="quote-card">
+
+                <div class="quote-symbol">“</div>
+
+                <h2>
+                    ทุกสิ่งที่เราชอบ
+                    <span class="gradient-text">สามารถสร้างแรงบันดาลใจ</span>
+                    ได้
+                </h2>
+
+                <p>
+                    สิ่งที่เราสนใจในวันนี้อาจกลายเป็นทักษะสำคัญในอนาคต
+                </p>
+
+            </div>
+
+        </section>
+
     </main>
 
-    <!-- Footer -->
+
     <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-col">
-                <h3><i class="fa-solid fa-sun"></i> Phumiphat Portfolio</h3>
-                <p>เว็บไซต์แนะนำตัวนักเรียนชั้น ม.3 จัดทำขึ้นเพื่อเป็นโครงงานวิชาคอมพิวเตอร์ ออกแบบด้วยความตั้งใจเพื่อความสวยงามและทันสมัย</p>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>✦ My Portfolio</h3>
+                <p>เว็บไซต์แนะนำตัวเองของนักเรียน ม.3</p>
             </div>
-            <div class="footer-col">
-                <h4>เมนูลัด</h4>
-                <ul>
-                    <li><a href="index.html">หน้าแรก</a></li>
-                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-                    <li><a href="education.html">การศึกษา</a></li>
-                    <li><a href="hobby.html">งานอดิเรก</a></li>
-                    <li><a href="contact.html">ติดต่อ</a></li>
-                </ul>
+
+            <div class="footer-links">
+                <a href="index.html">หน้าแรก</a>
+                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="education.html">การศึกษา</a>
+                <a href="hobby.html">งานอดิเรก</a>
+                <a href="contact.html">ติดต่อ</a>
             </div>
-            <div class="footer-col">
-                <h4>ข้อมูลผู้จัดทำ</h4>
-                <p>ด.ช. ภูมิภัทร นิลคูหา (ภูมิ)</p>
-                <p>ชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนในจังหวัดเชียงใหม่</p>
-                <p class="copyright">&copy; 2026 Phumiphat Nilkuha. All Rights Reserved.</p>
-            </div>
+
         </div>
+
+        <div class="copyright">
+            © 2026 My Student Portfolio • Created with 💙
+        </div>
+
     </footer>
+
 </body>
 </html>
