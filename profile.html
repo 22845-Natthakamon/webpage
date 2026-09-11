@@ -1,27 +1,31 @@
+```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio | ประวัติส่วนตัว</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>My Profile | ประวัติส่วนตัว</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="fairy-profile">
 
-    <div class="background-effects">
-        <span class="orb orb-1"></span>
-        <span class="orb orb-2"></span>
-        <span class="orb orb-3"></span>
-        <span class="spark spark-1"></span>
-        <span class="spark spark-2"></span>
-        <span class="spark spark-3"></span>
+    <div class="magic-background">
+        <span class="star star-1">✦</span>
+        <span class="star star-2">✧</span>
+        <span class="star star-3">✦</span>
+
+        <span class="butterfly butterfly-1">🦋</span>
+        <span class="butterfly butterfly-2">🦋</span>
+
+        <span class="flower flower-1">🌸</span>
+        <span class="flower flower-2">🌷</span>
     </div>
 
 
@@ -29,13 +33,13 @@
         <div class="nav-container">
 
             <a href="index.html" class="logo">
-                <span class="logo-icon">✦</span>
+                <span class="logo-magic">✦</span>
                 <span>My Portfolio</span>
             </a>
 
-            <nav>
+            <nav class="nav-menu">
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html" class="active">ประวัติส่วนตัว</a>
+                <a href="profile.html" class="active">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -45,82 +49,98 @@
     </header>
 
 
-    <main>
+    <main class="page-main">
 
-        <section class="page-header reveal">
+        <section class="page-hero">
 
-            <span class="small-title">ABOUT ME</span>
+            <span class="page-icon">👑</span>
 
-            <h1>
-                ประวัติ<span class="gradient-text">ส่วนตัว</span> 👤
-            </h1>
+            <p>MY PROFILE</p>
 
-            <p>
-                มาทำความรู้จักฉันให้มากขึ้น
+            <h1>เรื่องราวของฉัน</h1>
+
+            <span class="rainbow-line"></span>
+
+            <p class="page-subtitle">
+                ยินดีต้อนรับเข้าสู่โลกเล็ก ๆ ของฉัน 🌸
             </p>
 
         </section>
 
 
-        <section class="profile-section section">
+        <section class="profile-section">
 
-            <div class="profile-big-image reveal">
+            <div class="profile-picture-area">
 
-                <div class="image-glow"></div>
+                <div class="castle-frame">
 
-                <img
-                    src="https://placehold.co/600x700/e3f2fd/1976d2?text=MY+PHOTO"
-                    alt="รูปภาพประจำตัว">
+                    <div class="castle-decoration top-left">✦</div>
+                    <div class="castle-decoration top-right">✧</div>
 
-                <div class="image-label">
-                    ✦ STUDENT PORTFOLIO
+                    <img
+                        src="https://placehold.co/600x700/fce4ec/8e24aa?text=YOUR+PHOTO"
+                        alt="รูปภาพประจำตัว"
+                    >
+
+                    <div class="photo-label">
+                        ✨ This is me ✨
+                    </div>
+
                 </div>
 
             </div>
 
 
-            <div class="profile-info reveal delay-2">
+            <div class="profile-information">
 
-                <span class="small-title">HELLO, I'M</span>
+                <div class="mini-label">
+                    🦋 WHO AM I?
+                </div>
 
-                <h2>[กรอกชื่อ-นามสกุล]</h2>
+                <h2>
+                    สวัสดีค่ะ
+                    <span>ฉันชื่อ ณัฐกมล</span>
+                </h2>
 
-                <p class="lead">
-                    สวัสดีค่ะ! ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
-                    และนี่คือพื้นที่เล็ก ๆ ที่รวบรวมเรื่องราวเกี่ยวกับตัวฉัน
+                <p class="profile-intro">
+                    ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
+                    ที่ชอบเรียนรู้สิ่งใหม่ ๆ
+                    สนใจด้านเทคโนโลยีและการสร้างสรรค์ผลงาน
                 </p>
 
 
                 <div class="info-grid">
 
-                    <div class="info-box">
-                        <span>ชื่อเล่น</span>
-                        <strong>[กรอกชื่อเล่น]</strong>
+                    <div class="info-item">
+                        <span>👤</span>
+                        <div>
+                            <small>ชื่อเล่น</small>
+                            <strong>................</strong>
+                        </div>
                     </div>
 
-                    <div class="info-box">
-                        <span>อายุ</span>
-                        <strong>[กรอกอายุ] ปี</strong>
+                    <div class="info-item">
+                        <span>🎂</span>
+                        <div>
+                            <small>อายุ</small>
+                            <strong>........ ปี</strong>
+                        </div>
                     </div>
 
-                    <div class="info-box">
-                        <span>วันเกิด</span>
-                        <strong>[กรอกวันเกิด]</strong>
+                    <div class="info-item">
+                        <span>🎒</span>
+                        <div>
+                            <small>ระดับชั้น</small>
+                            <strong>มัธยมศึกษาปีที่ 3</strong>
+                        </div>
                     </div>
 
-                    <div class="info-box">
-                        <span>จังหวัด</span>
-                        <strong>[กรอกจังหวัด]</strong>
-                    </div>
-
-                    <div class="info-box">
-                        <span>ระดับชั้น</span>
-                        <strong>ม.3/[กรอกห้อง]</strong>
-                    </div>
-
-                    <div class="info-box">
-                        <span>โรงเรียน</span>
-                        <strong>[กรอกชื่อโรงเรียน]</strong>
+                    <div class="info-item">
+                        <span>📍</span>
+                        <div>
+                            <small>จังหวัด</small>
+                            <strong>................</strong>
+                        </div>
                     </div>
 
                 </div>
@@ -130,25 +150,70 @@
         </section>
 
 
-        <section class="section reveal">
+        <section class="about-section">
+
+            <div class="section-heading">
+                <span>🌸 A LITTLE ABOUT ME 🌸</span>
+                <h2>เกี่ยวกับฉัน</h2>
+            </div>
+
 
             <div class="about-card">
 
-                <div class="about-icon">💙</div>
+                <div class="about-icon">
+                    🧚
+                </div>
 
                 <div>
-                    <span class="small-title">ABOUT ME</span>
-
-                    <h2>เกี่ยวกับฉัน</h2>
+                    <h3>ตัวตนและความฝันของฉัน</h3>
 
                     <p>
                         ฉันเป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ
-                        และสนใจในสิ่งที่สามารถนำความคิดสร้างสรรค์
-                        มาประยุกต์ใช้ได้ เว็บไซต์นี้จึงเป็นส่วนหนึ่ง
-                        ที่แสดงตัวตน ความสนใจ และสิ่งที่ฉันกำลังเรียนรู้
+                        และสนุกกับการค้นหาสิ่งที่ตัวเองสนใจ
+                        โดยเฉพาะเรื่องเทคโนโลยี การออกแบบ
+                        และการสร้างสรรค์ผลงานต่าง ๆ
                     </p>
+
+                    <p>
+                        ฉันเชื่อว่าการเรียนรู้ไม่ได้มีเพียงแค่ในห้องเรียน
+                        แต่ทุกประสบการณ์สามารถทำให้เราเติบโตขึ้นได้
+                        และฉันอยากพัฒนาตัวเองให้ดีขึ้นในทุก ๆ วัน
+                    </p>
+
                 </div>
 
+            </div>
+
+        </section>
+
+
+        <section class="dream-section">
+
+            <div class="dream-card">
+                <span>🌟</span>
+                <h3>My Dream</h3>
+                <p>
+                    มีความสุขกับสิ่งที่ทำ
+                    และเติบโตเป็นคนที่ฉันภูมิใจ
+                </p>
+            </div>
+
+            <div class="dream-card">
+                <span>🪄</span>
+                <h3>My Goal</h3>
+                <p>
+                    พัฒนาความสามารถ
+                    และสร้างผลงานที่เป็นตัวเอง
+                </p>
+            </div>
+
+            <div class="dream-card">
+                <span>🌈</span>
+                <h3>My Motto</h3>
+                <p>
+                    ค่อย ๆ เติบโต
+                    แต่ไม่หยุดพยายาม
+                </p>
             </div>
 
         </section>
@@ -158,16 +223,16 @@
 
     <footer class="footer">
 
-        <div class="footer-content">
+        <div class="footer-inner">
 
             <div>
-                <h3>✦ My Portfolio</h3>
-                <p>เว็บไซต์แนะนำตัวเองของนักเรียน ม.3</p>
+                <h3>✦ My Fairy Portfolio</h3>
+                <p>My little world full of dreams.</p>
             </div>
 
             <div class="footer-links">
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -176,10 +241,11 @@
         </div>
 
         <div class="copyright">
-            © 2026 My Student Portfolio • Created with 💙
+            © 2026 My Fairy Portfolio • Made with ✨ and 💖
         </div>
 
     </footer>
 
 </body>
 </html>
+```
