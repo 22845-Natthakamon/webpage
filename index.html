@@ -3,140 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก - Modern Student Portfolio | น.ส. ณัฐกมล ทาเกิด</title>
+
+    <title>My Portfolio | หน้าแรก</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Navigation Bar -->
-    <header class="header">
+
+    <!-- Background Effects -->
+    <div class="background-effects">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="spark spark-1"></span>
+        <span class="spark spark-2"></span>
+        <span class="spark spark-3"></span>
+        <span class="spark spark-4"></span>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
         <div class="nav-container">
+
             <a href="index.html" class="logo">
-                <i class="fa-solid fa-sun logo-icon"></i>
-                <span>Phumiphat's Portfolio</span>
+                <span class="logo-icon">✦</span>
+                <span>My Portfolio</span>
             </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-            </label>
-            <nav class="nav-menu">
-                <a href="index.html" class="nav-link active">หน้าแรก</a>
-                <a href="profile.html" class="nav-link">ประวัติส่วนตัว</a>
-                <a href="education.html" class="nav-link">การศึกษา</a>
-                <a href="hobby.html" class="nav-link">งานอดิเรก</a>
-                <a href="contact.html" class="nav-link">ติดต่อ</a>
+
+            <nav>
+                <a href="index.html" class="active">หน้าแรก</a>
+                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="education.html">การศึกษา</a>
+                <a href="hobby.html">งานอดิเรก</a>
+                <a href="contact.html">ติดต่อ</a>
             </nav>
+
         </div>
     </header>
 
-    <!-- Hero Section -->
+
+    <!-- Hero -->
     <main>
-        <section class="hero-section">
-            <div class="sunflower-decoration top-left"><i class="fa-solid fa-sun"></i></div>
-            <div class="sunflower-decoration bottom-right"><i class="fa-solid fa-sun"></i></div>
-            
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <div class="badge-welcome">
-                        <i class="fa-solid fa-sparkles"></i> ยินดีต้อนรับสู่เว็บพอร์ตโฟลิโอของฉันนนนน
-                    </div>
-                    <h1>สวัสดีค่ะะ, หนู <span class="highlight-name">น.ส. ณัฐกมล ทาเกิด</span></h1>
-                    <h2 class="hero-subtitle">ชื่อเล่น: ข้าวฟ่างง | ชั้นมัธยมศึกษาปีที่ 3</h2>
-                    <p class="hero-description">
-                        นักเรียนชั้น ม.3 ผู้มีความหลงใหลในศิลปะ มีความใฝ่ฝันอยากเป็นศิลปินน
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="profile.html" class="btn btn-primary">
-                            <i class="fa-solid fa-user"></i> มารู้จักฉันมากขึ้นกันน
-                        </a>
-                        <a href="hobby.html" class="btn btn-secondary">
-                            <i class="fa-solid fa-gamepad"></i> ดูงานอดิเรกของฉัน
-                        </a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <span class="stat-num">15</span>
-                            <span class="stat-label">อายุ (ปี)</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-num">M.3/2</span>
-                            <span class="stat-label">ระดับชั้น</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-num">เชียงใหม่</span>
-                            <span class="stat-label">จังหวัด</span>
-                        </div>
-                    </div>
+
+        <section class="hero">
+
+            <div class="hero-content reveal">
+
+                <div class="small-title">
+                    ✨ WELCOME TO MY PORTFOLIO
                 </div>
-                
-                <div class="hero-image-wrapper">
-                    <div class="profile-glow-bg"></div>
-                    <div class="image-card">
-                        <img src="images/image2.webp" alt="รูปโปรไฟล์ของ ด.ช. ภูมิภัทร นิลคูหา">
-                        <div class="floating-badge badge-1">
-                            <i class="fa-solid fa-laptop-code"></i> Developer 
-                        </div>
-                        <div class="floating-badge badge-2">
-                            <i class="fa-solid fa-sun"></i> ม.3/2 GSMP
-                        </div>
-                    </div>
+
+                <h1>
+                    สวัสดีค่ะ 👋
+                    <br>
+                    ฉันคือ
+                    <span class="gradient-text">[กรอกชื่อ]</span>
+                </h1>
+
+                <p class="hero-description">
+                    เว็บไซต์แนะนำตัวเองของนักเรียนชั้นมัธยมศึกษาปีที่ 3
+                    ที่รวบรวมข้อมูลส่วนตัว การศึกษา งานอดิเรก
+                    และความสนใจของฉันเอาไว้
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="profile.html" class="btn btn-primary">
+                        รู้จักฉันมากขึ้น →
+                    </a>
+
+                    <a href="hobby.html" class="btn btn-outline">
+                        🎨 ดูงานอดิเรก
+                    </a>
                 </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>ม.3</strong>
+                        <span>ระดับชั้น</span>
+                    </div>
+
+                    <div>
+                        <strong>5</strong>
+                        <span>หน้าเว็บไซต์</span>
+                    </div>
+
+                    <div>
+                        <strong>∞</strong>
+                        <span>ความฝัน</span>
+                    </div>
+
+                </div>
+
             </div>
+
+
+            <!-- Profile Visual -->
+            <div class="hero-visual reveal delay-2">
+
+                <div class="profile-decoration decoration-1"></div>
+                <div class="profile-decoration decoration-2"></div>
+
+                <div class="profile-ring">
+                    <div class="profile-image">
+                        <img
+                            src="https://placehold.co/500x600/e3f2fd/1976d2?text=PROFILE"
+                            alt="รูปโปรไฟล์ของฉัน">
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-top">
+                    ✨ Student
+                </div>
+
+                <div class="floating-card floating-card-bottom">
+                    💙 Creative
+                </div>
+
+            </div>
+
         </section>
 
-        <!-- Quick Highlight Section -->
-        <section class="highlights-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>จุดเด่นและความสนใจ</h2>
-                    <p>ภาพรวมความสามารถและสิ่งที่หนูชื่นชอบเป็นพิเศษ</p>
-                </div>
-                <div class="highlight-grid">
-                    <div class="highlight-card">
-                        <div class="icon-box"><i class="fa-solid fa-code"></i></div>
-                        <h3>Computer & Tech</h3>
-                        <p>ชื่นชอบในศิลปะ การวาดรู</p>
-                    </div>
-                    <div class="highlight-card">
-                        <div class="icon-box"><i class="fa-solid fa-book-open"></i></div>
-                        <h3>วิชาที่ชื่นชอบ</h3>
-                        <p>คอมพิวเตอร์และเทคโนโลยีสารสนเทศ วิทยาศาสตร์ และภาษาอังกฤษ</p>
-                    </div>
-                    <div class="highlight-card">
-                        <div class="icon-box"><i class="fa-solid fa-palette"></i></div>
-                        <h3>ความคิดสร้างสรรค์</h3>
-                        <p>ชอบออกแบบชิ้นงานกราฟิก ตัดต่อวิดีโอ และสร้างสรรค์เว็บไซต์สไตล์โมเดิร์น</p>
-                    </div>
-                </div>
+
+        <!-- Intro Section -->
+        <section class="section reveal">
+
+            <div class="section-heading">
+                <span>ABOUT MY WEBSITE</span>
+                <h2>ยินดีต้อนรับสู่พื้นที่ของฉัน 💙</h2>
+                <p>
+                    มาทำความรู้จักฉันผ่านเว็บไซต์ Portfolio
+                    ที่ออกแบบขึ้นสำหรับโครงงานวิชาคอมพิวเตอร์
+                </p>
             </div>
+
+            <div class="feature-grid">
+
+                <a href="profile.html" class="feature-card">
+                    <div class="feature-icon">👤</div>
+                    <h3>ประวัติส่วนตัว</h3>
+                    <p>ข้อมูลพื้นฐานและเรื่องราวเกี่ยวกับตัวฉัน</p>
+                    <span>ดูเพิ่มเติม →</span>
+                </a>
+
+                <a href="education.html" class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>การศึกษา</h3>
+                    <p>ประวัติการศึกษา โรงเรียน และวิชาที่ชอบ</p>
+                    <span>ดูเพิ่มเติม →</span>
+                </a>
+
+                <a href="hobby.html" class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>งานอดิเรก</h3>
+                    <p>กิจกรรมและสิ่งต่าง ๆ ที่ฉันสนใจ</p>
+                    <span>ดูเพิ่มเติม →</span>
+                </a>
+
+            </div>
+
         </section>
+
     </main>
+
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-col">
-                <h3><i class="fa-solid fa-sun"></i> Phumiphat Portfolio</h3>
-                <p>เว็บไซต์แนะนำตัวนักเรียนชั้น ม.3 จัดทำขึ้นเพื่อเป็นโครงงานวิชาคอมพิวเตอร์ ออกแบบด้วยความตั้งใจเพื่อความสวยงามและทันสมัย</p>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>✦ My Portfolio</h3>
+                <p>เว็บไซต์แนะนำตัวเองของนักเรียน ม.3</p>
             </div>
-            <div class="footer-col">
-                <h4>เมนูลัด</h4>
-                <ul>
-                    <li><a href="index.html">หน้าแรก</a></li>
-                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
-                    <li><a href="education.html">การศึกษา</a></li>
-                    <li><a href="hobby.html">งานอดิเรก</a></li>
-                    <li><a href="contact.html">ติดต่อ</a></li>
-                </ul>
+
+            <div class="footer-links">
+                <a href="index.html">หน้าแรก</a>
+                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="education.html">การศึกษา</a>
+                <a href="hobby.html">งานอดิเรก</a>
+                <a href="contact.html">ติดต่อ</a>
             </div>
-            <div class="footer-col">
-                <h4>ข้อมูลผู้จัดทำ</h4>
-                <p>ด.ช. ภูมิภัทร นิลคูหา (ภูมิ)</p>
-                <p>ชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนในจังหวัดเชียงใหม่</p>
-                <p class="copyright">&copy; 2026 Phumiphat Nilkuha. All Rights Reserved.</p>
-            </div>
+
         </div>
+
+        <div class="copyright">
+            © 2026 My Student Portfolio • Created with 💙
+        </div>
+
     </footer>
+
 </body>
 </html>
