@@ -1,29 +1,38 @@
+```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio | หน้าแรก</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>My Fairy Portfolio | หน้าแรก</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="fairy-home">
 
-    <!-- Background Effects -->
-    <div class="background-effects">
-        <span class="orb orb-1"></span>
-        <span class="orb orb-2"></span>
-        <span class="orb orb-3"></span>
-        <span class="spark spark-1"></span>
-        <span class="spark spark-2"></span>
-        <span class="spark spark-3"></span>
-        <span class="spark spark-4"></span>
+    <!-- Magical Background -->
+    <div class="magic-background">
+        <span class="star star-1">✦</span>
+        <span class="star star-2">✧</span>
+        <span class="star star-3">✦</span>
+        <span class="star star-4">✧</span>
+        <span class="star star-5">✦</span>
+
+        <span class="butterfly butterfly-1">🦋</span>
+        <span class="butterfly butterfly-2">🦋</span>
+
+        <span class="cloud cloud-1">☁️</span>
+        <span class="cloud cloud-2">☁️</span>
+
+        <span class="flower flower-1">🌸</span>
+        <span class="flower flower-2">🌷</span>
+        <span class="flower flower-3">🌼</span>
     </div>
 
     <!-- Navigation -->
@@ -31,13 +40,13 @@
         <div class="nav-container">
 
             <a href="index.html" class="logo">
-                <span class="logo-icon">✦</span>
+                <span class="logo-magic">✦</span>
                 <span>My Portfolio</span>
             </a>
 
-            <nav>
+            <nav class="nav-menu">
                 <a href="index.html" class="active">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -52,77 +61,95 @@
 
         <section class="hero">
 
-            <div class="hero-content reveal">
+            <div class="hero-content">
 
-                <div class="small-title">
-                    ✨ WELCOME TO MY PORTFOLIO
+                <div class="magic-label">
+                    ✨ Welcome to my magical world ✨
                 </div>
 
+                <p class="small-title">
+                    เว็บไซต์แนะนำตัวของฉัน
+                </p>
+
                 <h1>
-                    สวัสดีค่ะ 👋
-                    <br>
-                    ฉันคือ
-                    <span class="gradient-text">[กรอกชื่อ]</span>
+                    สวัสดีค่ะ
+                    <span>ฉันคือ</span>
+                    <strong>ณัฐกมล</strong>
                 </h1>
 
                 <p class="hero-description">
-                    เว็บไซต์แนะนำตัวเองของนักเรียนชั้นมัธยมศึกษาปีที่ 3
-                    ที่รวบรวมข้อมูลส่วนตัว การศึกษา งานอดิเรก
-                    และความสนใจของฉันเอาไว้
+                    นักเรียนชั้นมัธยมศึกษาปีที่ 3
+                    ผู้ที่เชื่อว่าทุกความฝันสามารถกลายเป็น
+                    <b>เรื่องราวที่สวยงาม</b> ได้
                 </p>
 
-                <div class="hero-buttons">
-                    <a href="profile.html" class="btn btn-primary">
-                        รู้จักฉันมากขึ้น →
-                    </a>
-
-                    <a href="hobby.html" class="btn btn-outline">
-                        🎨 ดูงานอดิเรก
-                    </a>
+                <div class="hero-tags">
+                    <span>🌸 Student</span>
+                    <span>✨ Dreamer</span>
+                    <span>🦋 Creator</span>
                 </div>
 
-                <div class="hero-stats">
+                <div class="hero-buttons">
 
-                    <div>
-                        <strong>ม.3</strong>
-                        <span>ระดับชั้น</span>
-                    </div>
+                    <a href="profile.html" class="magic-button primary-button">
+                        <span>👤</span>
+                        รู้จักฉันมากขึ้น
+                        <b>→</b>
+                    </a>
 
-                    <div>
-                        <strong>5</strong>
-                        <span>หน้าเว็บไซต์</span>
-                    </div>
-
-                    <div>
-                        <strong>∞</strong>
-                        <span>ความฝัน</span>
-                    </div>
+                    <a href="contact.html" class="magic-button secondary-button">
+                        <span>💌</span>
+                        ติดต่อฉัน
+                    </a>
 
                 </div>
 
             </div>
 
 
-            <!-- Profile Visual -->
-            <div class="hero-visual reveal delay-2">
+            <!-- Hero Visual -->
+            <div class="hero-visual">
 
-                <div class="profile-decoration decoration-1"></div>
-                <div class="profile-decoration decoration-2"></div>
+                <div class="moon-glow"></div>
 
-                <div class="profile-ring">
-                    <div class="profile-image">
+                <div class="magical-ring ring-one"></div>
+                <div class="magical-ring ring-two"></div>
+                <div class="magical-ring ring-three"></div>
+
+                <div class="profile-orbit">
+
+                    <div class="profile-frame">
+
                         <img
-                            src="https://placehold.co/500x600/e3f2fd/1976d2?text=PROFILE"
-                            alt="รูปโปรไฟล์ของฉัน">
+                            src="https://placehold.co/600x700/e3f2fd/0d47a1?text=YOUR+PHOTO"
+                            alt="รูปภาพประจำตัวของนักเรียน"
+                        >
+
+                        <div class="photo-sparkle sparkle-a">✦</div>
+                        <div class="photo-sparkle sparkle-b">✧</div>
+                        <div class="photo-sparkle sparkle-c">✦</div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Floating Cards -->
+
+                <div class="floating-card card-top">
+                    <span>🌟</span>
+                    <div>
+                        <small>My Dream</small>
+                        <b>Keep Growing</b>
                     </div>
                 </div>
 
-                <div class="floating-card floating-card-top">
-                    ✨ Student
-                </div>
-
-                <div class="floating-card floating-card-bottom">
-                    💙 Creative
+                <div class="floating-card card-bottom">
+                    <span>🪄</span>
+                    <div>
+                        <small>My World</small>
+                        <b>Full of Magic</b>
+                    </div>
                 </div>
 
             </div>
@@ -130,42 +157,81 @@
         </section>
 
 
-        <!-- Intro Section -->
-        <section class="section reveal">
+        <!-- Magical Introduction -->
+
+        <section class="intro-section">
 
             <div class="section-heading">
-                <span>ABOUT MY WEBSITE</span>
-                <h2>ยินดีต้อนรับสู่พื้นที่ของฉัน 💙</h2>
+                <span>🌷 ABOUT MY WORLD 🌷</span>
+                <h2>เรื่องราวเล็ก ๆ ในโลกของฉัน</h2>
                 <p>
-                    มาทำความรู้จักฉันผ่านเว็บไซต์ Portfolio
-                    ที่ออกแบบขึ้นสำหรับโครงงานวิชาคอมพิวเตอร์
+                    ทุกคนมีเรื่องราวของตัวเอง และนี่คือเรื่องราวของฉัน
                 </p>
             </div>
 
+
             <div class="feature-grid">
 
-                <a href="profile.html" class="feature-card">
+                <article class="feature-card pink">
                     <div class="feature-icon">👤</div>
-                    <h3>ประวัติส่วนตัว</h3>
-                    <p>ข้อมูลพื้นฐานและเรื่องราวเกี่ยวกับตัวฉัน</p>
-                    <span>ดูเพิ่มเติม →</span>
-                </a>
+                    <h3>About Me</h3>
+                    <p>
+                        ทำความรู้จักตัวตน ความชอบ
+                        และเรื่องราวของฉันมากขึ้น
+                    </p>
+                    <a href="profile.html">อ่านเพิ่มเติม →</a>
+                </article>
 
-                <a href="education.html" class="feature-card">
+
+                <article class="feature-card blue">
                     <div class="feature-icon">🎓</div>
-                    <h3>การศึกษา</h3>
-                    <p>ประวัติการศึกษา โรงเรียน และวิชาที่ชอบ</p>
-                    <span>ดูเพิ่มเติม →</span>
-                </a>
+                    <h3>Education</h3>
+                    <p>
+                        เส้นทางการเรียนรู้
+                        และความฝันที่กำลังเติบโต
+                    </p>
+                    <a href="education.html">ดูเส้นทาง →</a>
+                </article>
 
-                <a href="hobby.html" class="feature-card">
-                    <div class="feature-icon">🎨</div>
-                    <h3>งานอดิเรก</h3>
-                    <p>กิจกรรมและสิ่งต่าง ๆ ที่ฉันสนใจ</p>
-                    <span>ดูเพิ่มเติม →</span>
-                </a>
+
+                <article class="feature-card purple">
+                    <div class="feature-icon">🌈</div>
+                    <h3>My Hobbies</h3>
+                    <p>
+                        สิ่งที่ฉันชอบทำในเวลาว่าง
+                        และสิ่งที่ทำให้ฉันมีความสุข
+                    </p>
+                    <a href="hobby.html">ดูงานอดิเรก →</a>
+                </article>
+
+
+                <article class="feature-card yellow">
+                    <div class="feature-icon">💌</div>
+                    <h3>Contact Me</h3>
+                    <p>
+                        หากต้องการพูดคุย
+                        สามารถติดต่อฉันได้ที่นี่
+                    </p>
+                    <a href="contact.html">ติดต่อฉัน →</a>
+                </article>
 
             </div>
+
+        </section>
+
+
+        <!-- Quote -->
+
+        <section class="magic-quote">
+
+            <div class="quote-stars">✦ ✧ ✦</div>
+
+            <blockquote>
+                “ความฝันอาจเริ่มต้นจากจินตนาการเล็ก ๆ
+                แต่ความพยายามจะทำให้มันกลายเป็นจริง”
+            </blockquote>
+
+            <p>— My Little Fairy Tale ✨</p>
 
         </section>
 
@@ -173,18 +239,22 @@
 
 
     <!-- Footer -->
+
     <footer class="footer">
 
-        <div class="footer-content">
+        <div class="footer-inner">
 
             <div>
-                <h3>✦ My Portfolio</h3>
-                <p>เว็บไซต์แนะนำตัวเองของนักเรียน ม.3</p>
+                <h3>✦ My Fairy Portfolio</h3>
+                <p>
+                    เว็บไซต์แนะนำตัวของนักเรียน
+                    ชั้นมัธยมศึกษาปีที่ 3
+                </p>
             </div>
 
             <div class="footer-links">
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -193,10 +263,11 @@
         </div>
 
         <div class="copyright">
-            © 2026 My Student Portfolio • Created with 💙
+            © 2026 My Fairy Portfolio • Made with ✨ and 💖
         </div>
 
     </footer>
 
 </body>
 </html>
+```
