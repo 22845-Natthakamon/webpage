@@ -1,179 +1,202 @@
+```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio | การศึกษา</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>My Education | การศึกษา</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="fairy-education">
 
-    <div class="background-effects">
-        <span class="orb orb-1"></span>
-        <span class="orb orb-2"></span>
-        <span class="orb orb-3"></span>
-        <span class="spark spark-1"></span>
-        <span class="spark spark-2"></span>
-        <span class="spark spark-3"></span>
+    <div class="magic-background">
+        <span class="star star-1">✦</span>
+        <span class="star star-2">✧</span>
+        <span class="star star-3">✦</span>
+        <span class="star star-4">✧</span>
+
+        <span class="butterfly butterfly-1">🦋</span>
+        <span class="cloud cloud-1">☁️</span>
+        <span class="flower flower-1">🌼</span>
     </div>
 
 
     <header class="navbar">
-
         <div class="nav-container">
 
             <a href="index.html" class="logo">
-                <span class="logo-icon">✦</span>
+                <span class="logo-magic">✦</span>
                 <span>My Portfolio</span>
             </a>
 
-            <nav>
+            <nav class="nav-menu">
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html" class="active">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
             </nav>
 
         </div>
-
     </header>
 
 
-    <main>
+    <main class="page-main">
 
-        <section class="page-header reveal">
+        <section class="page-hero education-hero">
 
-            <span class="small-title">MY EDUCATION</span>
+            <span class="page-icon">🎓</span>
 
-            <h1>
-                เส้นทาง<span class="gradient-text">การศึกษา</span> 🎓
-            </h1>
+            <p>MY EDUCATION JOURNEY</p>
 
-            <p>
-                ทุกก้าวของการเรียนรู้คือประสบการณ์ที่มีค่า
+            <h1>เส้นทางการเรียนรู้</h1>
+
+            <span class="rainbow-line"></span>
+
+            <p class="page-subtitle">
+                ทุกบทเรียนคือดาวอีกหนึ่งดวงบนท้องฟ้าของฉัน ✨
             </p>
 
         </section>
 
 
-        <section class="section timeline-section">
+        <!-- Timeline -->
+
+        <section class="timeline-section">
 
             <div class="timeline">
 
-                <div class="timeline-item reveal">
+                <article class="timeline-item">
 
-                    <div class="timeline-dot">📚</div>
+                    <div class="timeline-dot">
+                        🌱
+                    </div>
 
-                    <div class="timeline-content">
+                    <div class="timeline-card">
 
-                        <span class="timeline-year">อดีต</span>
+                        <span class="timeline-year">
+                            จุดเริ่มต้น
+                        </span>
 
-                        <h2>ประถมศึกษา</h2>
+                        <h2>ระดับประถมศึกษา</h2>
 
-                        <h3>[กรอกชื่อโรงเรียน]</h3>
+                        <h3>🏫 โรงเรียน ................................</h3>
 
                         <p>
-                            เริ่มต้นเส้นทางการเรียนรู้
-                            และสร้างพื้นฐานสำหรับการศึกษาในระดับต่อไป
+                            เริ่มต้นการเรียนรู้
+                            ได้พบเพื่อนใหม่ ๆ
+                            และค้นพบสิ่งที่ตัวเองชอบ
                         </p>
 
                     </div>
 
-                </div>
+                </article>
 
 
-                <div class="timeline-item reveal delay-1">
+                <article class="timeline-item">
 
-                    <div class="timeline-dot">🌱</div>
+                    <div class="timeline-dot">
+                        🌸
+                    </div>
 
-                    <div class="timeline-content">
+                    <div class="timeline-card">
 
-                        <span class="timeline-year">ปัจจุบัน</span>
+                        <span class="timeline-year">
+                            ช่วงเวลาปัจจุบัน
+                        </span>
 
-                        <h2>มัธยมศึกษาตอนต้น</h2>
+                        <h2>ระดับมัธยมศึกษาตอนต้น</h2>
 
-                        <h3>[กรอกชื่อโรงเรียน]</h3>
+                        <h3>🏫 โรงเรียน ................................</h3>
 
                         <p>
-                            กำลังศึกษาอยู่ในระดับชั้น
-                            ม.3/[กรอกห้อง]
-                            และเรียนรู้ทักษะใหม่ ๆ อย่างต่อเนื่อง
+                            ปัจจุบันกำลังศึกษาอยู่ชั้น
+                            มัธยมศึกษาปีที่ 3
+                            และกำลังเรียนรู้สิ่งใหม่ ๆ
+                            มากมาย
                         </p>
 
                     </div>
 
-                </div>
+                </article>
 
 
-                <div class="timeline-item reveal delay-2">
+                <article class="timeline-item">
 
-                    <div class="timeline-dot">🚀</div>
+                    <div class="timeline-dot">
+                        ⭐
+                    </div>
 
-                    <div class="timeline-content">
+                    <div class="timeline-card future-card">
 
-                        <span class="timeline-year">อนาคต</span>
+                        <span class="timeline-year">
+                            ความฝันในอนาคต
+                        </span>
 
-                        <h2>เป้าหมายต่อไป</h2>
+                        <h2>เส้นทางที่ฉันอยากไป</h2>
 
-                        <h3>Keep Learning</h3>
+                        <h3>🚀 Future Dream</h3>
 
                         <p>
-                            ตั้งใจพัฒนาตัวเองและค้นหาสิ่งที่ชอบ
-                            เพื่อเติบโตไปสู่เป้าหมายในอนาคต
+                            อยากเรียนต่อในสิ่งที่สนใจ
+                            และพัฒนาความสามารถของตัวเอง
+                            เพื่อสร้างอนาคตที่ดี
                         </p>
 
                     </div>
 
-                </div>
+                </article>
 
             </div>
 
         </section>
 
 
-        <section class="section reveal">
+        <!-- Highlight -->
+
+        <section class="education-highlight">
 
             <div class="section-heading">
-
-                <span>MY HIGHLIGHTS</span>
-
-                <h2>ข้อมูลการศึกษาของฉัน</h2>
-
+                <span>✨ MY SCHOOL LIFE ✨</span>
+                <h2>สิ่งสำคัญในชีวิตการเรียน</h2>
             </div>
 
 
-            <div class="education-grid">
+            <div class="highlight-grid">
 
-                <div class="education-highlight">
-                    <div class="feature-icon">🏫</div>
-                    <span>โรงเรียน</span>
-                    <strong>[กรอกชื่อโรงเรียน]</strong>
+                <div class="highlight-card blue">
+                    <span>🎒</span>
+                    <small>ระดับชั้น</small>
+                    <strong>ม.3</strong>
+                    <p>กำลังเติบโตและเรียนรู้</p>
                 </div>
 
-                <div class="education-highlight">
-                    <div class="feature-icon">🎓</div>
-                    <span>ระดับชั้น</span>
-                    <strong>ม.3/[กรอกห้อง]</strong>
+                <div class="highlight-card pink">
+                    <span>📚</span>
+                    <small>วิชาที่ชอบ</small>
+                    <strong>คอมพิวเตอร์</strong>
+                    <p>สนุกกับการสร้างสรรค์</p>
                 </div>
 
-                <div class="education-highlight">
-                    <div class="feature-icon">📖</div>
-                    <span>วิชาที่ชอบ</span>
-                    <strong>[กรอกวิชาที่ชอบ]</strong>
+                <div class="highlight-card purple">
+                    <span>🏆</span>
+                    <small>เป้าหมาย</small>
+                    <strong>พัฒนาตัวเอง</strong>
+                    <p>ทำให้ดีกว่าเมื่อวาน</p>
                 </div>
 
-                <div class="education-highlight">
-                    <div class="feature-icon">⭐</div>
-                    <span>ความสนใจ</span>
-                    <strong>[กรอกความสนใจ]</strong>
+                <div class="highlight-card yellow">
+                    <span>🌟</span>
+                    <small>สิ่งที่สำคัญ</small>
+                    <strong>ประสบการณ์</strong>
+                    <p>เรียนรู้จากทุกสิ่ง</p>
                 </div>
 
             </div>
@@ -181,49 +204,57 @@
         </section>
 
 
-        <section class="section reveal">
+        <!-- Table -->
 
-            <div class="table-card">
+        <section class="education-table-section">
 
-                <div class="section-heading left">
+            <div class="section-heading">
+                <span>📖 MY STUDY PROFILE</span>
+                <h2>ข้อมูลการศึกษา</h2>
+            </div>
 
-                    <span>EDUCATION HISTORY</span>
 
-                    <h2>ประวัติการศึกษา</h2>
+            <div class="table-wrapper">
 
-                </div>
+                <table>
 
-                <div class="table-wrapper">
+                    <thead>
+                        <tr>
+                            <th>หัวข้อ</th>
+                            <th>ข้อมูล</th>
+                        </tr>
+                    </thead>
 
-                    <table>
+                    <tbody>
 
-                        <thead>
-                            <tr>
-                                <th>ระดับ</th>
-                                <th>สถานศึกษา</th>
-                                <th>สถานะ</th>
-                            </tr>
-                        </thead>
+                        <tr>
+                            <td>🏫 โรงเรียน</td>
+                            <td>........................................</td>
+                        </tr>
 
-                        <tbody>
+                        <tr>
+                            <td>🎓 ระดับชั้น</td>
+                            <td>มัธยมศึกษาปีที่ 3</td>
+                        </tr>
 
-                            <tr>
-                                <td>ประถมศึกษา</td>
-                                <td>[กรอกชื่อโรงเรียน]</td>
-                                <td>สำเร็จแล้ว</td>
-                            </tr>
+                        <tr>
+                            <td>📚 ห้องเรียน</td>
+                            <td>ม.3/........</td>
+                        </tr>
 
-                            <tr>
-                                <td>มัธยมศึกษาตอนต้น</td>
-                                <td>[กรอกชื่อโรงเรียน]</td>
-                                <td>กำลังศึกษา</td>
-                            </tr>
+                        <tr>
+                            <td>💻 วิชาที่ชอบ</td>
+                            <td>คอมพิวเตอร์</td>
+                        </tr>
 
-                        </tbody>
+                        <tr>
+                            <td>⭐ เป้าหมาย</td>
+                            <td>พัฒนาความสามารถของตัวเอง</td>
+                        </tr>
 
-                    </table>
+                    </tbody>
 
-                </div>
+                </table>
 
             </div>
 
@@ -234,16 +265,16 @@
 
     <footer class="footer">
 
-        <div class="footer-content">
+        <div class="footer-inner">
 
             <div>
-                <h3>✦ My Portfolio</h3>
-                <p>เว็บไซต์แนะนำตัวเองของนักเรียน ม.3</p>
+                <h3>✦ My Fairy Portfolio</h3>
+                <p>Every lesson becomes a little star.</p>
             </div>
 
             <div class="footer-links">
                 <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
+                <a href="profile.html">ประวัติ</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
@@ -252,10 +283,11 @@
         </div>
 
         <div class="copyright">
-            © 2026 My Student Portfolio • Created with 💙
+            © 2026 My Fairy Portfolio • Made with ✨ and 💖
         </div>
 
     </footer>
 
 </body>
 </html>
+```
