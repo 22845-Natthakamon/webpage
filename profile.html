@@ -1,208 +1,132 @@
-```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <title>Profile | Enchanted Kingdom</title>
 
-    <title>My Story | Profile</title>
-
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
+<body class="profile-page">
 
-<body class="forest-profile">
-
-
-    <div class="magic-sky">
-
-        <div class="aurora"></div>
-
-        <div class="moon"></div>
-
-        <span class="star s1">✦</span>
-        <span class="star s2">✧</span>
-        <span class="star s3">✦</span>
-        <span class="star s4">✧</span>
-        <span class="star s5">✦</span>
-
-        <div class="mist mist-1"></div>
-        <div class="mist mist-2"></div>
-
+    <div class="stars">
+        <span>✦</span>
+        <span>✧</span>
+        <span>⋆</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>⋆</span>
+        <span>✦</span>
+        <span>✧</span>
     </div>
 
 
-    <div class="magic-particles">
+    <header class="magic-nav">
 
-        <span class="butterfly fly-1">🦋</span>
-        <span class="butterfly fly-2">🦋</span>
+        <a href="index.html" class="magic-logo">
+            <span class="logo-orbit">✦</span>
+            <span>MY FAIRY WORLD</span>
+        </a>
 
-        <span class="fairy-light light-1">✦</span>
-        <span class="fairy-light light-2">✧</span>
-        <span class="fairy-light light-3">✦</span>
-
-    </div>
-
-
-    <header class="navbar enchanted-nav">
-
-        <div class="nav-container">
-
-            <a href="index.html" class="logo">
-                <span class="logo-crystal">✦</span>
-                Enchanted World
-            </a>
-
-            <nav class="nav-menu">
-
-                <a href="index.html">🏠 หน้าแรก</a>
-
-                <a
-                    href="profile.html"
-                    class="active"
-                >
-                    🧚 ประวัติ
-                </a>
-
-                <a href="education.html">📜 การศึกษา</a>
-
-                <a href="hobby.html">🌸 งานอดิเรก</a>
-
-                <a href="contact.html">💌 ติดต่อ</a>
-
-            </nav>
-
-        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="profile.html" class="active">Profile</a>
+            <a href="education.html">Education</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="contact.html">Contact</a>
+        </nav>
 
     </header>
 
 
-    <main>
+    <main class="castle-room">
 
+        <div class="page-heading">
 
-        <section class="page-banner">
-
-            <div class="banner-crown">
-                👑
-            </div>
-
-            <span>
-                MY MAGICAL STORY
-            </span>
+            <span>✦ THE MAGIC MIRROR ✦</span>
 
             <h1>
-                เรื่องราวของฉัน
+                About
+                <em>Me</em>
             </h1>
 
-            <div class="rainbow-divider"></div>
-
             <p>
-                ยินดีต้อนรับสู่ห้องเล็ก ๆ
-                ที่เก็บเรื่องราวของฉันเอาไว้ ✨
+                เรื่องราวของคนหนึ่งคน
+                ที่กำลังเติบโตและค้นหาความฝันของตัวเอง
             </p>
 
-        </section>
+        </div>
 
 
-        <section class="profile-magical-section">
+        <!-- MAGIC MIRROR -->
 
+        <section class="magic-mirror">
 
-            <div class="castle-portrait">
+            <div class="mirror-frame">
 
-                <div class="castle-light"></div>
+                <div class="mirror-light"></div>
 
-                <div class="portrait-frame">
-
-                    <div class="frame-crown">
-                        ✦
-                    </div>
-
-                    <img
-                        src="https://placehold.co/600x750/392b67/ffe5f4?text=YOUR+PHOTO"
-                        alt="รูปภาพประจำตัว"
-                    >
-
-                </div>
-
-                <div class="portrait-name">
-                    ✨ ณัฐกมล ✨
-                </div>
+                <img
+                    src="https://placehold.co/500x650/8b6fc4/ffffff?text=YOUR+PHOTO"
+                    alt="รูปภาพแนะนำตัว"
+                >
 
             </div>
 
 
-            <div class="profile-story">
+            <div class="mirror-info">
 
-                <span class="story-label">
-                    🦋 WHO AM I?
-                </span>
+                <span class="gold-label">THE OWNER OF THIS WORLD</span>
 
-                <h2>
-                    สวัสดีค่ะ
-                    <span>ฉันชื่อ ณัฐกมล</span>
-                </h2>
+                <h2>ชื่อของฉัน</h2>
 
-                <p>
-                    ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
-                    เป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ
-                    และสนุกกับการค้นหาสิ่งที่ตัวเองสนใจ
+                <p class="nickname">
+                    ✦ ชื่อเล่น : ชื่อเล่น ✦
                 </p>
 
-                <p>
-                    ฉันสนใจเทคโนโลยี การออกแบบ
-                    และการสร้างสรรค์ผลงาน
-                    เพราะรู้สึกว่าการสร้างบางสิ่งขึ้นมาด้วยตัวเอง
-                    เป็นเรื่องที่สนุกและน่าภูมิใจ
-                </p>
-
-
-                <div class="profile-facts">
+                <div class="info-runes">
 
                     <div>
-                        <span>👤</span>
-                        <small>ชื่อเล่น</small>
-                        <b>................</b>
+                        <span>AGE</span>
+                        <strong>15</strong>
+                        <small>ปี</small>
                     </div>
 
                     <div>
-                        <span>🎂</span>
-                        <small>อายุ</small>
-                        <b>........ ปี</b>
+                        <span>CLASS</span>
+                        <strong>ม.3</strong>
+                        <small>นักเรียน</small>
                     </div>
 
                     <div>
-                        <span>🎒</span>
-                        <small>ระดับชั้น</small>
-                        <b>ม.3</b>
+                        <span>HOME</span>
+                        <strong>ไทย</strong>
+                        <small>ประเทศไทย</small>
                     </div>
 
-                    <div>
-                        <span>📍</span>
-                        <small>จังหวัด</small>
-                        <b>................</b>
-                    </div>
+                </div>
+
+                <div class="about-story">
+
+                    <h3>🌙 เกี่ยวกับฉัน</h3>
+
+                    <p>
+                        ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
+                        ที่ชอบเรียนรู้สิ่งใหม่ ๆ และสนใจด้านเทคโนโลยี
+                        การออกแบบ และสิ่งสร้างสรรค์ต่าง ๆ
+                    </p>
+
+                    <p>
+                        ในอนาคตฉันอยากพัฒนาความสามารถของตัวเอง
+                        และสร้างผลงานที่สามารถแสดงตัวตน
+                        และความคิดสร้างสรรค์ของฉันออกมาได้
+                    </p>
 
                 </div>
 
@@ -211,72 +135,41 @@
         </section>
 
 
-        <section class="about-magic">
+        <!-- PERSONAL CONSTELLATION -->
+
+        <section class="constellation-section">
 
             <div class="section-title">
-
-                <span>
-                    🌸 BEHIND THE MAGIC
-                </span>
-
-                <h2>
-                    ตัวตนของฉัน
-                </h2>
-
+                <span>✦ MY CONSTELLATION ✦</span>
+                <h2>ตัวตนของฉัน</h2>
             </div>
 
+            <div class="constellation">
 
-            <div class="about-magic-card">
-
-                <div class="magic-symbol">
-                    🧚‍♀️
+                <div class="constellation-item item-a">
+                    <div class="planet">💙</div>
+                    <h3>Friendly</h3>
+                    <p>เป็นมิตรและเข้ากับคนอื่นได้</p>
                 </div>
 
-                <div>
-
-                    <h3>
-                        สิ่งที่ฉันเชื่อ
-                    </h3>
-
-                    <p>
-                        ฉันเชื่อว่าทุกคนมีความสามารถที่แตกต่างกัน
-                        และไม่จำเป็นต้องเก่งเหมือนใคร
-                        ขอเพียงเราได้พยายาม
-                        และพัฒนาตัวเองไปเรื่อย ๆ
-                    </p>
-
-                    <p>
-                        ทุกความผิดพลาดคือบทเรียน
-                        ทุกประสบการณ์คือเรื่องราว
-                        และทุกความฝันคือจุดเริ่มต้น
-                        ของการเดินทางครั้งใหม่
-                    </p>
-
+                <div class="constellation-item item-b">
+                    <div class="planet">✨</div>
+                    <h3>Creative</h3>
+                    <p>ชอบคิดและสร้างสรรค์สิ่งใหม่</p>
                 </div>
 
-            </div>
+                <div class="constellation-item item-c">
+                    <div class="planet">🌱</div>
+                    <h3>Learning</h3>
+                    <p>พร้อมเรียนรู้และพัฒนาตัวเอง</p>
+                </div>
 
-        </section>
+                <div class="constellation-item item-d">
+                    <div class="planet">🪄</div>
+                    <h3>Dreamer</h3>
+                    <p>มีความฝันและเป้าหมายในอนาคต</p>
+                </div>
 
-
-        <section class="dream-world">
-
-            <div class="dream-box">
-                <span>🌟</span>
-                <h3>My Dream</h3>
-                <p>เติบโตเป็นคนที่ภูมิใจในตัวเอง</p>
-            </div>
-
-            <div class="dream-box">
-                <span>🪄</span>
-                <h3>My Goal</h3>
-                <p>พัฒนาความสามารถของตัวเอง</p>
-            </div>
-
-            <div class="dream-box">
-                <span>🌈</span>
-                <h3>My Motto</h3>
-                <p>ไม่หยุดเรียนรู้และไม่หยุดฝัน</p>
             </div>
 
         </section>
@@ -284,38 +177,10 @@
     </main>
 
 
-    <footer class="enchanted-footer">
-
-        <div class="footer-content">
-
-            <div class="footer-brand">
-
-                <h2>✦ Enchanted World</h2>
-
-                <p>
-                    A little story about me.
-                </p>
-
-            </div>
-
-            <div class="footer-navigation">
-
-                <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติ</a>
-                <a href="education.html">การศึกษา</a>
-                <a href="hobby.html">งานอดิเรก</a>
-                <a href="contact.html">ติดต่อ</a>
-
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-            © 2026 My Enchanted Portfolio ✨
-        </div>
-
+    <footer class="fairy-footer">
+        <p>✦ Every person has their own story ✦</p>
+        <p>© 2026 My Fairy Portfolio</p>
     </footer>
 
 </body>
 </html>
-```
